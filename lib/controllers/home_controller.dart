@@ -3,7 +3,7 @@ import 'package:quiz_app/services/home_service.dart';
 import 'package:quiz_app/utils/custom_snackbar.dart';
 
 class HomeController extends GetxController {
-  RxList<String> topics = <String>[].obs;
+  RxList<List<String>> topics = <List<String>>[].obs;
 
   final HomeService _homeService;
 

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:quiz_app/constants/app_routes.dart';
+import 'package:quiz_app/helper/dependency.dart';
 
-void main() {
+void main() async {
+  DependencyInjection().initDependency();
   runApp(const MyApp());
 }
 
